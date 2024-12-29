@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lorem ipsum dolor</title>
+</head>
+
+<body class="px-6 py-3 sm:p-3 min-w-[300px]">
+  <header class="flex gap-6 items-center">
+    <div class="w-full">
+      <p class="duration-500 ease-out hover:translate-x-2 hover:opacity-80 cursor-default">Lorem ipsum dolor sit amet!
+      </p>
+
+      <section class="mt-5 container">
+        <nav class="flex justify-between items-center">
+          <a href="/lorem">Lorem</a>
+          <a href="/ipsum">ipsum</a>
+          <a href="/dolor">dolor</a>
+          <a href="/sit">sit</a>
+          <style>
+            nav a {
+              @apply duration-500 ease-out
+            }
+
+            nav a:hover {
+              @apply -translate-y-1 opacity-80 text-blue-500
+            }
+          </style>
+        </nav>
+      </section>
+    </div>
+
+    <a href="#">
+      <h1 class="text-[20px] cursor-pointer text-yellow-500 hover:text-yellow-400">Logo</h1>
+    </a>
+  </header>
+
+  <div class="my-5 border-b-[1px] border-white"></div>
+
+  <main class="grid sm:grid-cols-3 grid-cows-2 gap-4">
+    <div id="content-container" class="sm:order-first order-last space-y-2 sm:col-span-2 col-span-1">
+      <style>
+        .block {
+          @apply flex flex-col p-2 rounded-md duration-500 bg-white bg-opacity-0 ease-in hover:bg-opacity-10 cursor-pointer
+        }
+
+        .block__title {
+          @apply font-bold mb-2 text-[16px]
+        }
+
+        .block__author {
+          @apply self-end opacity-60 pt-1 duration-500 ease-out hover:text-red-500 hover:opacity-100
+        }
+      </style>
+    </div>
+    <div class="col-span-1 space-y-2">
+      <h3 class="text-[20px] text-purple-600 hover:text-purple-400 cursor-default">Learn about Lorem</h3>
+      <div
+        class="p-2 cursor-pointer duration-700 ease-out border-[1px] border-transparent hover:border-white rounded-md">
+        <h4 class="font-bold pb-2">Easy to use</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam adipisci doloribus corporis dolor accusamus
+          voluptatum similique maiores, nulla nesciunt vero molestias possimus voluptates officiis aut minus dignissimos
+          aperiam nemo minima.</p>
+      </div>
+      <div
+        class="p-2 cursor-pointer duration-700 ease-out border-[1px] border-transparent hover:border-white rounded-md">
+        <h4 class="font-bold pb-2">Connect to your project</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aspernatur hic neque!</p>
+      </div>
+      <div
+        class="p-2 cursor-pointer duration-700 ease-out border-[1px] border-transparent hover:border-white rounded-md">
+        <h4 class="font-bold pb-2">The work of professionals</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea, sequi itaque quibusdam eius quisquam eum
+          maiores cupiditate nesciunt vero, maxime repellat.</p>
+      </div>
+      <div
+        class="p-2 cursor-pointer duration-700 ease-out border-[1px] border-transparent hover:border-white rounded-md">
+        <h4 class="font-bold pb-2">Read popular articles</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat culpa harum tenetur cumque, similique
+          perferendis corporis nemo illo mollitia temporibus aliquam impedit quisquam, sequi reprehenderit voluptatum.
+          Voluptas voluptatem aspernatur enim.</p>
+      </div>
+    </div>
+  </main>
+
+  <div class="my-5 border-b-[1px] border-white"></div>
+
+  <footer class="sm:flex grid grid-cols-2 grid-rows-2 grid-flow-col justify-between pb-5">
+    <ul class="opacity-90 space-y-1">
+      <p>Helpful links</p>
+      <li><a href="">Authors</a></li>
+      <li><a href="">Contacts</a></li>
+      <li><a href="">News</a></li>
+      <li><a href="">Futures</a></li>
+    </ul>
+    <p class="self-center duration-500 ease-out hover:-translate-y-2 hover:opacity-80 cursor-default">Lorem ipsum dolor
+      sit amet!
+    </p>
+    <ul class="opacity-90 space-y-1">
+      <p>About Us</p>
+      <li><a href="">Functions</a></li>
+      <li><a href="">Meetings</a></li>
+      <li><a href="">About</a></li>
+    </ul>
+    <a class="sm:self-end self-center" href="#">
+      <h1 class="text-[20px] cursor-pointer text-yellow-500 hover:text-yellow-400">Logo</h1>
+    </a>
+    <style>
+      footer li {
+        @apply text-[12px] duration-500 ease-out hover:translate-x-1;
+      }
+
+      footer p {
+        @apply pb-2 cursor-pointer
+      }
+    </style>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

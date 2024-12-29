@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+   <link rel="stylesheet" href="style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Lorem ipsum dolor</title>
+</head>
+
+<body class="px-6 py-3 sm:p-3 min-w-[300px]">
+   <header class="flex justify-between items-center">
+      <a href="#">
+         <h1 class="text-[20px] cursor-pointer text-yellow-500 hover:text-yellow-400">Logo</h1>
+      </a>
+      <p class="duration-500 ease-out hover:-translate-x-2 hover:opacity-80 cursor-default">Lorem ipsum dolor sit amet!
+      </p>
+   </header>
+
+   <section class="mt-5 container">
+      <nav class="flex justify-between items-center">
+         <a href="/lorem">Lorem</a>
+         <a href="/ipsum">ipsum</a>
+         <a href="/dolor">dolor</a>
+         <a href="/sit">sit</a>
+         <style>
+            nav a {
+               @apply duration-500 ease-out
+            }
+
+            nav a:hover {
+               @apply -translate-y-1 opacity-80 text-blue-500
+            }
+         </style>
+      </nav>
+   </section>
+
+   <div class="my-5 border-b-[1px] border-white"></div>
+
+   <section class="container mb-5 flex items-center gap-2 text-purple-400">
+      <a class="duration-500 ease-in-out hover:text-purple-700" href="/">Home</a>
+      <span class="cursor-default text-[13px] font-bold">/</span>
+      <span class="cursor-default">Author</span>
+   </section>
+
+   <main class="space-y-2">
+      <h3 class="text-xl">Authors</h3>
+      <ul class="list-disc space-y-2">
+         <li>Lisa Mi</li>
+         <li>WMW Taylor</li>
+         <li>Soulja-B-Boy</li>
+         <li>CasWhishper1976</li>
+         <li>Kai Lost Angel</li>
+         <li>WhoAmI-Pretty Cat 2033</li>
+      </ul>
+   </main>
+
+   <div class="my-5 border-b-[1px] border-white"></div>
+
+   <footer class="sm:flex grid grid-cols-2 grid-rows-2 grid-flow-col justify-between pb-5">
+      <ul class="opacity-90 space-y-1">
+         <p>Helpful links</p>
+         <li><a href="">Authors</a></li>
+         <li><a href="">Contacts</a></li>
+         <li><a href="">News</a></li>
+         <li><a href="">Futures</a></li>
+      </ul>
+      <p class="self-center duration-500 ease-out hover:-translate-y-2 hover:opacity-80 cursor-default">Lorem ipsum
+         dolor
+         sit amet!
+      </p>
+      <ul class="opacity-90 space-y-1">
+         <p>About Us</p>
+         <li><a href="">Functions</a></li>
+         <li><a href="">Meetings</a></li>
+         <li><a href="">About</a></li>
+      </ul>
+      <a class="sm:self-end self-center" href="#">
+         <h1 class="text-[20px] cursor-pointer text-yellow-500 hover:text-yellow-400">Logo</h1>
+      </a>
+      <style>
+         footer li {
+            @apply text-[12px] duration-500 ease-out hover:translate-x-1;
+         }
+
+         footer p {
+            @apply pb-2 cursor-pointer
+         }
+      </style>
+   </footer>
+
+   <script type="module" src="/main.js"></script>
+</body>
+
+</html>
